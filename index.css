@@ -1,0 +1,44 @@
+body{
+  margin: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.img-potrait{
+  width: 300px;
+}
+
+.role{
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+.location{
+  font-size: 30px;
+}
+
+.location:hover, .role:hover{
+  color: blue;
+  text-shadow: 2px 2px 2px blue;
+  cursor: pointer;
+}
+
+.card{
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content:space-around;
+  padding: 20px;
+  background-color: #90A995;
+  border-bottom: 5px solid #2b2839;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px;
+  
+}
+
+.border-green{
+  border: 1px dotted green;
+}
+
+.developer-info{
+  color: #2b2839;
+  text-align: center;
+}
